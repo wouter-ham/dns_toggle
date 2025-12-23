@@ -11,3 +11,11 @@ settings:
 ```shell
 adb shell pm grant dev.vdham.dns_toggle android.permission.WRITE_SECURE_SETTINGS
 ```
+
+### Screenshots
+
+Quick settings tile:
+![Quick settings](./screenshots/quick-settings-tile.png)
+
+Quick settings tile:
+![DNS setting](./screenshots/dns-setting.png)
