@@ -19,7 +19,7 @@ class DnsToggleTileService : TileService() {
         try {
             val currentMode = Settings.Global.getString(contentResolver, "private_dns_mode")
 
-            if (currentMode == "automatic" || currentMode == null || currentMode == "opportunistic") {
+            if (currentMode != "hostname") {
                 Settings.Global.putString(contentResolver, "private_dns_mode", "hostname")
                 Settings.Global.putString(
                     contentResolver,
