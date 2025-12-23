@@ -6,7 +6,7 @@
         tools:ignore="ProtectedPermissions" />
 
     <application
-        android:label="dns_toggle"
+        android:label="@string/quick_settings_dns_tile_label"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <service
