@@ -1,19 +1,12 @@
 # dns_toggle
 
-A new Flutter project.
+(Android) Create a quick settings tile that let's you enable/disable Adguard as a private DNS
+server.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After installing the application, run this command over ADB to allow the app to change system
+settings:
 
 ```shell
 adb shell pm grant dev.vdham.dns_toggle android.permission.WRITE_SECURE_SETTINGS
