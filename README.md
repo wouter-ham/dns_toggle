@@ -12,6 +12,8 @@ settings:
 adb shell pm grant dev.vdham.dns_toggle android.permission.WRITE_SECURE_SETTINGS
 ```
 
+Open the application once to create the quick setting tile.
+
 ### Screenshots
 
 Quick settings tile:
